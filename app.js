@@ -8,11 +8,11 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 const contestRoutes = require('./routes/contest-routes');
 
-app.get('/',(req,res)=>{
-    res.send("Hello");
+app.get('/healthz',(req,res)=>{
+    res.send("Healthy");
 });
 
-app.use('/users', contestRoutes);
+app.use('/api', contestRoutes);
 
 
 app.listen(PORT,()=>{
