@@ -3,16 +3,18 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 
+app.use(express.json());
+
 const PORT = process.env.PORT || 3000;
+const contestRoutes = require('./routes/contest-routes');
 
 app.get('/',(req,res)=>{
     res.send("Hello");
 });
 
-app.listen(PORT,(err)=>{
-    try{
-        console.log(`Server running on ${PORT}`);
-    }catch(err){
-        console.log(err);
-    }
+app.use('/users', contestRoutes);
+
+
+app.listen(PORT,()=>{
+    console.log(`Server running on ${PORT}`);
 });
