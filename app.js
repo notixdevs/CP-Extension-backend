@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 const contestRoutes = require('./routes/contest-routes');
 
 app.get('/healthz',(req,res)=>{
-    res.send("Healthy");
+    res.send("Healthy connection");
 });
 
 app.use('/api', contestRoutes);
