@@ -4,7 +4,7 @@ const axios = require('axios');
 const fetchContests = async () => {
     const currentDate = new Date();
     const oneWeekLater = new Date();
-    oneWeekLater.setDate(currentDate.getDate() + 7);
+    oneWeekLater.setDate(currentDate.getDate() + 10);
 
     const startDate = currentDate.toISOString().slice(0, 19);
     const endDate = oneWeekLater.toISOString().slice(0, 19);
