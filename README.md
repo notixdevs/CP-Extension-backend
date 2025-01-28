@@ -1,6 +1,8 @@
-# Contest Tracker Chrome Extension
+# nextContest
 
-The **Contest Tracker** Chrome Extension helps you stay on top of upcoming and ongoing contests from various platforms. With this extension, you can easily view important contest details such as the contest title, start time, duration, and platform information, all in one place.
+The **nextContest** Chrome Extension helps you stay on top of upcoming and ongoing contests from various platforms. With this extension, you can easily view important contest details such as the contest title, start time, duration, and platform information, all in one place.
+
+(screenshot)
 
 ## Features
 
@@ -13,10 +15,14 @@ The **Contest Tracker** Chrome Extension helps you stay on top of upcoming and o
 
 ## Installation
 
+### Google Chrome
+
 1. Go to the [Chrome Web Store](https://chrome.google.com/webstore).
 2. Search for "Contest Tracker" or follow this [link to the extension](#).
 3. Click **Add to Chrome**.
 4. After the installation, the extension icon will appear in your Chrome toolbar.
+
+(screenshot)
 
 ## How to Use
 
@@ -33,17 +39,18 @@ The **Contest Tracker** Chrome Extension helps you stay on top of upcoming and o
 
 The Contest Tracker currently supports the following platforms:
 
-- **Platform 1**
-- **Platform 2**
-- **Platform 3**
-- **Platform 4**
-
-(Feel free to add more platforms as they are supported in future updates.)
+- **Codeforces**
+- **Codechef**
+- **Leetcode**
+- **Atcoder**
+- **Coding Ninjas**
+- **Geeks for geeks**
 
 ## Support
 
-If you have any questions, suggestions, or run into issues, feel free to contact us at [support@contesttracker.com](mailto:support@contesttracker.com).
+Found any bugs or have any suggestions to make nextContest better?
+Log them [here](https://github.com/karanarjunjr/cp-calendar/issues).
 
 ---
 
-Stay updated on all your favorite contests with **Contest Tracker**!
+Never miss your next contest with **nextContest**!
