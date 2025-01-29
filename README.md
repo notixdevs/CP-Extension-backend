@@ -3,7 +3,7 @@
 The **nextContest** Chrome Extension helps you stay on top of upcoming and ongoing contests from various platforms. With this extension, you can easily view important contest details such as the contest title, start time, duration, and time remaining until each contest starts, all in one place.
 
 
-![image](https://github.com/user-attachments/assets/15c61edc-5224-40f1-9725-4fff60b8a360)
+![image](https://github.com/user-attachments/assets/15563203-930f-4f49-8b1b-d2af1c749572)
 
 
 ## Features
