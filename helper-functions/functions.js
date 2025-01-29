@@ -4,12 +4,13 @@ const axios = require('axios');
 const fetchContests = async () => {
     const currentDate = new Date();
     const oneWeekLater = new Date();
-    oneWeekLater.setDate(currentDate.getDate() + 10);
+    oneWeekLater.setDate(currentDate.getDate() + 7);
+    currentDate.setDate(currentDate.getDate()-1);
 
     const startDate = currentDate.toISOString().slice(0, 19);
     const endDate = oneWeekLater.toISOString().slice(0, 19);
 
-    const apiUrl = `https://clist.by/api/v4/contest/?upcoming=true&start__gte=${startDate}&start__lte=${endDate}&username=${process.env.USER_ID}&api_key=${process.env.API_KEY}&order_by=start`;
+    const apiUrl = `https://clist.by/api/v4/contest/?&start__gte=${startDate}&start__lte=${endDate}&username=${process.env.USER_ID}&api_key=${process.env.API_KEY}&order_by=start`;
 
     try {
         const response = await axios.get(apiUrl);
