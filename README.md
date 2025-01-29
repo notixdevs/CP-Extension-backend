@@ -38,7 +38,7 @@ The **nextContest** Chrome Extension helps you stay on top of upcoming and ongoi
    - **Contest Title**: Click on the title to be redirected to the contest page.
    - **Platform Icon**: See the icon of the platform hosting the contest.
    - **Start Time and Duration**: View when the contest starts and how long it lasts.
-   - **Live Indicator**: For ongoing contests, a **Live** button will appear at the bottom of the contest card.
+   - **Status Indicator**:  For ongoing contests, a Live button will be displayed, while for upcoming contests, the time remaining until the start of each contest will appear at the bottom of the contest card.
 
 
 ## Supported Platforms
