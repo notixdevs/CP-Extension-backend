@@ -4,7 +4,10 @@ The **nextContest** Chrome Extension helps you stay on top of upcoming and ongoi
 
 
 ![image](https://github.com/user-attachments/assets/4a836dc8-20d9-4348-8ffe-a422574c039d)
-(ss with live tag)
+
+
+![image](https://github.com/user-attachments/assets/15c61edc-5224-40f1-9725-4fff60b8a360)
+
 
 
 
