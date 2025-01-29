@@ -4,6 +4,7 @@ The **nextContest** Chrome Extension helps you stay on top of upcoming and ongoi
 
 
 ![image](https://github.com/user-attachments/assets/4a836dc8-20d9-4348-8ffe-a422574c039d)
+(ss with live tag)
 
 
 
@@ -21,7 +22,7 @@ The **nextContest** Chrome Extension helps you stay on top of upcoming and ongoi
 ### Google Chrome
 
 1. Go to the [Chrome Web Store](https://chrome.google.com/webstore).
-2. Search for "Contest Tracker" or follow this [link to the extension](#).
+2. Search for "Contest Tracker" or follow this [link to the extension](#link_here).
 3. Click **Add to Chrome**.
 4. After the installation, the extension icon will appear in your Chrome toolbar.
 
@@ -55,14 +56,14 @@ The Contest Tracker currently supports the following platforms:
 ## Help Us Improve
 
 Found any bugs or have any suggestions to make nextContest better?
-Log them [here](https://github.com/karanarjunjr/cp-calendar/issues).
+Log them [here](#link_here).
 
 
 ## Rate Us
 
 If you find this extension helpful, please consider rating us! Your feedback helps us improve and provide better features.
 
-[Rate us here!](#)
+[Rate us here!](#link_here)
 
 ---
 
