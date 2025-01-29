@@ -22,7 +22,7 @@ The **nextContest** Chrome Extension helps you stay on top of upcoming and ongoi
 ### Google Chrome
 
 1. Go to the [Chrome Web Store](https://chrome.google.com/webstore).
-2. Search for "Contest Tracker" or follow this [link to the extension](#link_here).
+2. Search for "nextContest" or follow this [link to the extension](#link_here).
 3. Click **Add to Chrome**.
 4. After the installation, the extension icon will appear in your Chrome toolbar.
 
@@ -33,7 +33,7 @@ The **nextContest** Chrome Extension helps you stay on top of upcoming and ongoi
 
 ## Getting Started
 
-1. **Open the Extension**: Click on the Contest Tracker icon in your browser's toolbar to open the extension popup.
+1. **Open the Extension**: Click on the nextContest icon in your browser's toolbar to open the extension popup.
 2. **Select Platforms**: Choose which platforms you want to see contests for.
 3. **View Contest Details**: The extension will show a list of all upcoming and ongoing contests. For each contest, you will be able to see:
    - **Contest Title**: Click on the title to be redirected to the contest page.
@@ -44,7 +44,7 @@ The **nextContest** Chrome Extension helps you stay on top of upcoming and ongoi
 
 ## Supported Platforms
 
-The Contest Tracker currently supports the following platforms:
+nextContest currently supports the following platforms:
 
 - **Codeforces**
 - **Codechef**
