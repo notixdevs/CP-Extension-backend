@@ -3,15 +3,15 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const axios = require('axios');
-//const cors  = require('cors');
+const cors  = require('cors');
 
 app.use(express.json());
 
-// app.use(cors({
-//     origin: 'http://localhost:5173', // Replace with your frontend URL during development
-//     methods: ['GET'], // Allowed HTTP methods
-//     credentials: false, // If you need to allow cookies or authentication headers
-// }));
+app.use(cors({
+  origin: "*",
+  methods: "GET",
+  allowedHeaders: "Content-Type"
+}));
 
 
 const PORT = process.env.PORT || 3000;
