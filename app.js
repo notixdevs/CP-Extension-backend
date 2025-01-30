@@ -8,10 +8,11 @@ const cors  = require('cors');
 app.use(express.json());
 
 app.use(cors({
-  origin: "*",
+  origin: "chrome-extension://mfmhgdajclegnbajooglmdbdbbhfckeo",
   methods: "GET",
-  allowedHeaders: "Content-Type"
+  allowedHeaders: ["Content-Type", "Pragma", "Cache-Control"]
 }));
+
 
 
 const PORT = process.env.PORT || 3000;
