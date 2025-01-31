@@ -7,11 +7,20 @@ const cors  = require('cors');
 
 app.use(express.json());
 
-app.use(cors({
-  origin: "chrome-extension://mfmhgdajclegnbajooglmdbdbbhfckeo",
+const corsOptions = {
+  origin: function (origin, callback) {
+      if (!origin || origin.startsWith("chrome-extension://")) {
+          callback(null, true);
+      } else {
+          callback(new Error("Not allowed by CORS"));
+      }
+  },
   methods: "GET",
   allowedHeaders: ["Content-Type", "Pragma", "Cache-Control"]
-}));
+};
+
+app.use(cors(corsOptions));
+
 
 
 
